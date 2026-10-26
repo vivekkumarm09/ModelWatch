@@ -25,9 +25,6 @@ Turn any Report into a **Test Suite** by adding pass/fail conditions.
 * Zero setup option: auto-generate test conditions from the reference dataset.
 * Simple syntax to set test conditions as `gt` (greater than), `lt` (less than), etc.
 
-| Reports |
-|--|
-|![Report example](https://github.com/evidentlyai/docs/blob/eb1630cdd80d31d55921ff4d34fc7b5e6e9c9f90/images/concepts/report_test_preview.gif)|
 
 ## 2. Monitoring Dashboard
 
@@ -153,9 +150,6 @@ my_eval.json()
 ```
 You can choose other Presets, create Reports from individual Metrics and configure pass/fail conditions.
 
-## Monitoring dashboard
-
-This launches a demo project in the locally hosted Evidently UI. Sign up for [Evidently Cloud](https://docs.evidentlyai.com/docs/setup/cloud) to instantly get a managed version with additional features.
 
 
 if you have [uv](https://docs.astral.sh/uv/) you can run Evidently UI with a single command.
