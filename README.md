@@ -95,45 +95,6 @@ flowchart LR
 | 🔌 | **REST API** | FastAPI prediction endpoint |
 | 🐳 | **Docker** | Reproducible environment |
 
-> Not every feature above is built yet. See [Current Status](#-current-status).
-
----
-
-## 📦 Dataset
-
-| Item | Value |
-|---|---|
-| Name | `[dataset name, e.g. Telco Customer Churn]` |
-| Source | `[link]` |
-| Rows / columns | `[N]` / `[M]` |
-| Churn rate | `[X%]` |
-| License / terms | `[check the dataset's terms]` |
-
-Data is **not** committed to this repository unless its license allows redistribution. Add download instructions instead.
-
----
-
-## 📊 Results
-
-> ⚠️ **Not measured yet.** Fill these tables only with real results from your own runs.
-
-### Model comparison (test set)
-
-| Model | ROC-AUC | PR-AUC | Recall @ chosen threshold | Precision @ chosen threshold |
-|---|---|---|---|---|
-| Baseline (`[model]`) | `[ ]` | `[ ]` | `[ ]` | `[ ]` |
-| XGBoost | `[ ]` | `[ ]` | `[ ]` | `[ ]` |
-
-**Split strategy:** `[e.g. stratified 80/20 with fixed seed]`
-**Imbalance handling:** `[e.g. class weights / none]`
-
-### Top churn drivers (SHAP)
-
-| Rank | Feature | Direction | Plain-English meaning |
-|---|---|---|---|
-| 1 | `[ ]` | `[↑ / ↓ churn]` | `[ ]` |
-| 2 | `[ ]` | `[ ]` | `[ ]` |
-| 3 | `[ ]` | `[ ]` | `[ ]` |
 
 ### Business recommendation
 
@@ -154,18 +115,8 @@ Drift means the data the model sees in production no longer looks like the data 
 | **Data drift** | Feature distributions have shifted |
 | **Retraining trigger** | A rule such as "retrain if `[12]` of important features drift" |
 
-> ⚠️ **Honesty note:** If drift here is **simulated** (for example by shifting a feature on purpose), say so clearly.
-> Simulated drift demonstrates the *monitoring system*; it is not evidence of real production drift.
 
-| Item | Value |
-|---|---|
-| Drift scenario tested | `[describe what you changed]` |
-| Drift method / threshold | `[e.g. PSI, threshold]` |
-| What was detected | `[ ]` |
-| Effect on model performance | `[ ]` |
-| Retraining decision | `[ ]` |
 
----
 
 ## 🚀 Quickstart
 
@@ -220,7 +171,7 @@ Tick a box only when the feature works in this repository.
 - [✅] FastAPI endpoint
 - [✅] Tests and CI
 - [✅] Docker image
-- [✅] Live demo
+
 
 ---
 
