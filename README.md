@@ -1,29 +1,5 @@
 <h1 align="center">Evidently</h1>
 
-<p align="center"><b>An open-source framework to evaluate, test and monitor ML and LLM-powered systems.</b></p>
-
-<p align="center">
-<a href="https://pepy.tech/project/evidently" target="_blank"><img src="https://pepy.tech/badge/evidently" alt="PyPi Downloads"></a>
-<a href="https://github.com/evidentlyai/evidently/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/evidentlyai/evidently" alt="License"></a>
-<a href="https://pypi.org/project/evidently/" target="_blank"><img src="https://img.shields.io/pypi/v/evidently" alt="PyPi"></a>
-
-![Evidently](/images/gh_header.png)
-
-</p>
-<p align="center">
-  <a href="https://docs.evidentlyai.com">Documentation</a>
-  |
-  <a href="https://evidentlyai.github.io/evidently/api-reference">API Reference</a>
-  |
-  <a href="https://discord.gg/xZjKRaNp8b">Discord Community</a>
-  |
-  <a href="https://evidentlyai.com/blog">Blog</a>
-  |
-  <a href="https://twitter.com/EvidentlyAI">Twitter</a>
-  |
-  <a href="https://www.evidentlyai.com/register">Evidently Cloud</a>
-</p>
-
 # :bar_chart: What is Evidently?
 
 Evidently is an open-source Python library to evaluate, test, and monitor ML and LLM systems—from experiments to production.
@@ -56,10 +32,6 @@ Turn any Report into a **Test Suite** by adding pass/fail conditions.
 ## 2. Monitoring Dashboard
 
 **Monitoring UI** service helps visualize metrics and test results over time.
-
-You can choose:
-* Self-host the open-source version. [Live demo](https://demo.evidentlyai.com).
-* Sign up for [Evidently Cloud](https://www.evidentlyai.com/register) (Recommended).
 
 Evidently Cloud offers a generous free tier and extra features like dataset and user management, alerting, and no-code evals. [Compare OSS vs Cloud](https://docs.evidentlyai.com/faq/oss_vs_cloud).
 
